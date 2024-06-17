@@ -46,7 +46,7 @@ body {
     align-items: center;
     justify-content: center;
     transition: background-color 0.3s ease-in-out;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    
 }
 
 .btn-arrow.btn-back {
@@ -139,5 +139,15 @@ body {
 
 .card.fundo-6 {
     background-image: url('../img/fundo-6.jpg');
+    background-repeat: no-repeat;  
+}
+
+.card.fundo-7 {
+    background-image: url('../img/fundo-7.jpg');
+    background-repeat: no-repeat;  
+}
+
+.card.fundo-8 {
+    background-image: url('../img/fundo-8.jpg');
     background-repeat: no-repeat;  
 }
