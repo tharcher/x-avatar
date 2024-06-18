@@ -1,5 +1,5 @@
 body {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Papyrus', sans-serif;
     background-image: url('../img/bg-avatar.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,15 +11,17 @@ body {
     padding: 60px 0;
 }
 
+.header img {
+    max-height: 120px;
+}
+
 .header h1 {
     color: #f1ecff;
     font-size: 45px;
     font-weight: bold;
-    text-shadow: 1px 1px 0 #f1ecff, -1px -1px 0 #f1ecff, 1px -1px 0 #f1ecff, -1px 1px 0 #f1ecff; 
     -webkit-text-stroke: 3px #f1ecff; 
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-family: 'Papyrus', sans-serif;
 }
 
 .games-slider {
@@ -36,9 +38,9 @@ body {
 }
 
 .btn-arrow {
-    background-color: #ffffff;
-    width: 80px;
-    height: 80px;
+    background-color: #f8ebef;
+    width: 70px;
+    height: 70px;
     border-radius: 50px;
     border: 0;
     cursor: pointer;
@@ -51,20 +53,31 @@ body {
 
 .btn-arrow.btn-back {
     transform: rotateY(180deg);
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-arrow.btn-back img, .btn-arrow.btn-next img {
+    max-width: 80%;
+    max-height: 100%;
 }
 
 .btn-arrow:hover {
-    background-color: #FCF6C3;
+    background-color: #9ccae9;
 }
 
 .card {
     opacity: 0;
     height: 100%;
     position: absolute;
-    padding: 12px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
-    transition: opacity 0.3s ease-in-out;
+    padding: 20px;
+    transition: opacity 0.5s ease-in-out;
+    background: rgba(255, 255, 255, 0.2);
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) ;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;   
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -78,16 +91,18 @@ body {
 .card .img-game {
     width: 100%;
     max-height: 280px;
+    opacity: 0.8;
 }
 
 .card .name {
-    background-color: rgba(179, 177, 185, 0.7);
+    background-color: rgba(153, 153, 156, 0.7);
+    -webkit-text-stroke: 1px #f1ecff; 
+    color: #f1ecff;
     padding: 8px 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    color: #ffffff;
-    font-size: 16px;
-    text-transform: uppercase;
+    font-size: 13px;
+    text-transform: uppercase;    
     letter-spacing: 5px;
 }
 
@@ -98,10 +113,12 @@ body {
 }
 
 .card .description .title {
-    background-color: #333333;
+    background-color: #627885;
     font-size: 20px;
     color: #ffffff;
-    padding: 12px;
+    padding: 8px;
+    opacity: 0.7;
+
 }
 
 .card .description .text {
@@ -150,4 +167,13 @@ body {
 .card.fundo-8 {
     background-image: url('../img/fundo-8.jpg');
     background-repeat: no-repeat;  
+}
+
+.card.selected:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);    
+}
+
+.img-game:hover {
+    opacity: 1;
 }

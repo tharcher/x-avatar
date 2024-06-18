@@ -1,175 +1,160 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-        <title>X-AVATAR - Equipe Avatar</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./src/css/reset.css">
-        <link rel="stylesheet" href="./src/css/style.css">
-        <link rel="stylesheet" href="./src/css/responsive.css">
-        <link rel="stylesheet" href="./src/assets/fonts/Papyrus/index.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>X-AVATAR - Equipe Avatar</title>
+    <link rel="shortcut icon" href="./src/img/icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="stylesheet" href="./src/assets/fonts/Papyrus/index.css">
+</head>
 
-    <body>
-        <header class="header">
-            <h1>EQUIPE AVATAR</h1>
-        </header>
-        <main class="games-slider">
-            <button class="btn-arrow btn-back" id="btn-back">
-                <img src="./src/img/arrow.png" alt="voltar a imagem">
-            </button>
+<body>
+    <header class="header">
+        <img class="logo" src="./src/img/logo.png" alt="logo">
+        <h1>EQUIPE AVATAR</h1>
+    </header>
+    <main class="games-slider">
+        <button class="btn-arrow btn-back" id="btn-back">
+            <img src="./src/img/arrow.png" alt="voltar a imagem">
+        </button>
 
-            <ul class="games-list">
-                <li class="card selected fundo-1">
-                    <h2 class="name">Aang</h2>
-                    <img class="img-game" src="./src/img/aang.png" alt="Aang">
-                    <div class="description">
-                        <h3 class="title">Descrição</h3>
-                        <p class="text">
-                            A premissa central da história envolve-se a partir da rivalidade entre duas sociedades secretas
-                            ancestrais: os Assassinos, que desejam a paz através do livre-arbítrio, e os Templários, que têm
-                            o objetivo de dominar o mundo e impor a ordem na humanidade. Ambos tiveram uma relação indireta
-                            com uma espécie que viveu antes dos humanos, cuja sociedade foi destruída por uma gigantesca
-                            tempestade solar. Misturando personagens e ficção histórica com eventos e figuras reais, a ordem
-                            cronológica dos jogos começa em 2012, e fala de Desmond Miles, um jovem que com a ajuda do
-                            Animus (uma máquina que permite ver as suas "memórias ancestrais"), explora as memórias de
-                            alguns dos mais proeminentes Assassinos da história.
-                        </p>
-                    </div>
-                </li>
-                <li class="card fundo-2">
-                    <h2 class="name">Katara</h2>
-                    <img class="img-game" src="./src/img/katara.png" alt="Katara">
-                    <div class="description">
-                        <h3 class="title">Descrição</h3>
-                        <p class="text">
-                            Hogwarts Legacy é um jogo eletrônico de RPG de ação desenvolvido pela Avalanche Software e
-                            publicado pela Warner Bros. Interactive Entertainment sob o selo Portkey Games. O jogo é
-                            ambientado no final do século XIX do universo de Harry Potter, um século antes dos eventos
-                            narrados nos livros de J.K. Rowling. O jogador controla um aluno matriculado na Escola de Magia
-                            e Bruxaria de Hogwarts que aprende a manejar uma série de habilidades e objetos mágicos. Com a
-                            ajuda de colegas e professores, a protagonista embarca em uma jornada para desenterrar um antigo
-                            segredo que há muito está escondido no mundo mágico.
-                        </p>
-                    </div>
-                </li>
-                <li class="card fundo-3">
-                    <h2 class="name">Sokka</h2>
-                    <img class="img-game" src="./src/img/sokka.png" alt="Sokka">
-                    <div class="description">
-                        <h3 class="title">Descrição</h3>
-                        <p class="text">
-                            Cyberpunk 2077 é um jogo eletrônico de RPG de ação desenvolvido pela CD Projekt Red e publicado
-                            pela CD Projekt. A história do jogo é ambientada em Night City, um mundo aberto situado no
-                            universo fictício de Cyberpunk. Ele é jogado a partir de uma perspectiva em primeira pessoa, com
-                            os jogadores controlando um mercenário personalizável conhecido como V, que pode adquirir
-                            habilidades de hacking e maquinários, um arsenal de armas de longo alcance e opções de combate
-                            no estilo corpo a corpo. A trama segue a luta de V enquanto tenta lidar com um misterioso
-                            implante cibernético que ameaça substituir seu corpo com a personalidade e as memórias de uma
-                            celebridade falecida perceptível apenas por V; os dois devem trabalhar juntos se houver alguma
-                            esperança de separar os dois e salvar a vida de V.
-                        </p>
-                    </div>
-                </li>
-                <li class="card fundo-4">
-                    <h2 class="name">Toph</h2>
-                    <img class="img-game" src="./src/img/toph.png" alt="Toph">
-                    <div class="description">
-                        <h3 class="title">Descrição</h3>
-                        <p class="text">
-                            Elden Ring é um jogo eletrônico de RPG de ação em terceira pessoa, desenvolvido pela
-                            FromSoftware e publicado pela Bandai Namco Entertainment. Elden Ring ocorre no
-                            reino das Terras Intermédias, algum tempo após a destruição do Anel Prístino e a dispersão de
-                            seus fragmentos, as Grandes Runas. Uma vez agraciado pelo anel e o Erdtree que simboliza sua
-                            presença, o reino agora é governado pela descendência semideusa da Rainha Marika, a Eterna, cada
-                            um possuindo um fragmento do anel que os corrompe e os mancha com poder. Como um "Maculado" — um
-                            exilado das Terras Intermédias e que perdeu a graça do anel e convocado de volta após a
-                            Fragmentação — o jogador deve atravessar o reino para encontrar todas as Grandes Runas,
-                            restaurar o Anel Prístino e se tornar o Lorde Prístino.
-                        </p>
-                    </div>
-                </li>
-                <li class="card fundo-5">
-                    <h2 class="name">Sukki</h2>
-                    <img class="img-game" src="./src/img/suki.png" alt="Sukki">
-                    <div class="description">
-                        <h3 class="title">Descrição</h3>
-                        <p class="text">
-                            Final Fantasy é uma série de jogos eletrônicos de Ação-aventura, ficção científica e fantasia
-                            criada por Hironobu Sakaguchi e lançada originalmente para a Nintendo e seu console Nintendo
-                            Entertainment System, desenvolvida pela Square Enix. Apesar da grande maioria dos títulos Final
-                            Fantasy serem histórias individuais com personagens e mundos diferentes, eles possuem elementos
-                            idênticos que definem a franquia. Elementos recorrentes incluem temas de enredo, nomes de
-                            personagens e mecânicas de jogo. Os enredos normalmente se centram em um grupo de heróis lutando
-                            contra um grande mal enquanto ao mesmo tempo explorando as lutas internas e relações dos
-                            personagens. Os nomes dos personagens frequentemente vem da história, idiomas, cultura popular e
-                            mitologias de todo o mundo.
-                        </p>
-                    </div>
-                </li>
-                <li class="card fundo-6">
-                    <h2 class="name">Zuko</h2>
-                    <img class="img-game" src="./src/img/zuko.png" alt="Zuko">
-                    <div class="description">
-                        <h3 class="title">Descrição</h3>
-                        <p class="text">
-                            Ghost of Tsushima é um jogo eletrônico de ação-aventura desenvolvido pela Sucker Punch
-                            Productions e publicado pela Sony Interactive Entertainment. A história acompanha Jin Sakai, um
-                            samurai que precisa proteger a Ilha de Tsushima durante a primeira invasão mongol do Japão. Ele
-                            se vê dividido entre escolher seguir o código do guerreiro para lutar honradamente ou usar
-                            métodos práticos e desonrosos para subjugar os mongóis. A jogabilidade apresenta um grande mundo
-                            aberto que pode ser explorado a pé ou a cavalo. Ao enfrentar inimigos o jogador pode escolher
-                            enfrentá-los diretamente com a katana de Jin ou usar táticas furtivas e assassinar oponentes
-                            tornando-se assim o lendário guerreiro conhecido como "o Fantasma".
-                        </p>
-                    </div>
-                </li>
-                <li class="card fundo-7">
-                    <h2 class="name">Appa</h2>
-                    <img class="img-game" src="./src/img/appa.png" alt="Appa">
-                    <div class="description">
-                        <h3 class="title">Descrição</h3>
-                        <p class="text">
-                            Ghost of Tsushima é um jogo eletrônico de ação-aventura desenvolvido pela Sucker Punch
-                            Productions e publicado pela Sony Interactive Entertainment. A história acompanha Jin Sakai, um
-                            samurai que precisa proteger a Ilha de Tsushima durante a primeira invasão mongol do Japão. Ele
-                            se vê dividido entre escolher seguir o código do guerreiro para lutar honradamente ou usar
-                            métodos práticos e desonrosos para subjugar os mongóis. A jogabilidade apresenta um grande mundo
-                            aberto que pode ser explorado a pé ou a cavalo. Ao enfrentar inimigos o jogador pode escolher
-                            enfrentá-los diretamente com a katana de Jin ou usar táticas furtivas e assassinar oponentes
-                            tornando-se assim o lendário guerreiro conhecido como "o Fantasma".
-                        </p>
-                    </div>
-                </li>
-                <li class="card fundo-8">
-                    <h2 class="name">Momo</h2>
-                    <img class="img-game" src="./src/img/momo.png" alt="Momo">
-                    <div class="description">
-                        <h3 class="title">Descrição</h3>
-                        <p class="text">
-                            Ghost of Tsushima é um jogo eletrônico de ação-aventura desenvolvido pela Sucker Punch
-                            Productions e publicado pela Sony Interactive Entertainment. A história acompanha Jin Sakai, um
-                            samurai que precisa proteger a Ilha de Tsushima durante a primeira invasão mongol do Japão. Ele
-                            se vê dividido entre escolher seguir o código do guerreiro para lutar honradamente ou usar
-                            métodos práticos e desonrosos para subjugar os mongóis. A jogabilidade apresenta um grande mundo
-                            aberto que pode ser explorado a pé ou a cavalo. Ao enfrentar inimigos o jogador pode escolher
-                            enfrentá-los diretamente com a katana de Jin ou usar táticas furtivas e assassinar oponentes
-                            tornando-se assim o lendário guerreiro conhecido como "o Fantasma".
-                        </p>
-                    </div>
-                </li>
-            </ul>
+        <ul class="games-list">
+            <li class="card selected fundo-1">
+                <h2 class="name">Aang</h2>
+                <img class="img-game" src="./src/img/aang.png" alt="Aang">
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">
+                        Um pouco antes do início da guerra, Aang estava congelado num iceberg durante 100 anos. Ele
+                        emerge, ainda biologicamente com doze anos de idade, em um mundo tragado pela guerra. Durante
+                        sua ausência, a Nação do Fogo entrou em guerra com as outras nações e conseguiu eliminar
+                        totalmente os pacifistas Nômades do Ar. Aang, o último de sua etnia, era o único que poderia pôr
+                        fim à guerra, aprendendo a dominar os outros três elementos e ser capaz derrotar o Senhor do
+                        Fogo Ozai. Ele permaneceu ingênuo, um rapaz de coração puro, apesar da perda esmagadora de seu
+                        povo e os pesados encargos que ele foi obrigado a suportar.
+                    </p>
+                </div>
+            </li>
+            <li class="card fundo-2">
+                <h2 class="name">Katara</h2>
+                <img class="img-game" src="./src/img/katara.png" alt="Katara">
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">
+                        Katara é uma mestra de dominação de água, nascida na Tribo da Água do Sul, filha do Chefe Hakoda
+                        e sua esposa Kya. Durante sua infância, ela foi a única dobradora de água que vivia na Tribo da
+                        Água do Sul. Depois de perder sua mãe em um ataque da Nação do Fogo e seu pai partir para lutar
+                        contra a Nação do Fogo na Guerra dos Cem Anos, ela foi criada pela avó paterna, Kanna, ao lado
+                        de seu irmão mais velho Sokka. Quando adolescente, Katara e seu irmão descobriram o jovem Nômade
+                        do Ar Avatar, Aang, que havia sido congelado em um iceberg com seu bisão voador, Appa, por um
+                        século.
+                    </p>
+                </div>
+            </li>
+            <li class="card fundo-3">
+                <h2 class="name">Sokka</h2>
+                <img class="img-game" src="./src/img/sokka.png" alt="Sokka">
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">
+                        Sokka é um guerreiro que nasceu e cresceu na Tribo da Água do Sul criado por sua avó Kanna, ele
+                        viveu uma vida de um adolescente normal em sua tribo até que ele e sua irmã Katara navegam pelo
+                        mar e encontram um iceberg e lá havia um garoto Nômade do Ar congelado, que permaneceu incubado
+                        durante um período de 100 anos que, inclusive, é o Avatar, que tem esperança de que pode
+                        aprender a controlar os elementos e acabar com a guerra entre as quatro nações. Logo após isso
+                        ele e sua irmã Katara deixam sua tribo para viajar ao lado de Aang e ajudá-lo em sua jornada, e
+                        também é um membro da Equipe Avatar.
+                    </p>
+                </div>
+            </li>
+            <li class="card fundo-4">
+                <h2 class="name">Toph</h2>
+                <img class="img-game" src="./src/img/toph.png" alt="Toph">
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">
+                        Toph Beifong, também conhecida como Toph, é uma mestre de Dobra de Terra, uma das mais poderosas
+                        de seu tempo, e a descobridora da Dobra de Metal. Cega desde o nascimento, Toph foi tratada
+                        constantemente de maneira superprotetora por causa de sua "inabilidade", particularmente por
+                        seus pais ultra protetores, Lao e Poppy Beifong. Ao descobrir Toupeiras-Texugo, animais que
+                        dominavam a Terra e que também eram cegos, ela aprendeu a usar a dobra de terra como uma
+                        extensão de seus sentidos. Isso lhe deu a habilidade de "ver" todas as vibrações que passam pelo
+                        chão.
+                    </p>
+                </div>
+            </li>
+            <li class="card fundo-5">
+                <h2 class="name">Sukki</h2>
+                <img class="img-game" src="./src/img/suki.png" alt="Sukki">
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">
+                        Suki nasceu e cresceu na Ilha Kyoshi. Ela iniciou seu treinamento aos oito anos e se tornou
+                        mestre em tessenjutsu, a arte do combate com leques. Como ela era a Guerreira Kyoshi mais velha
+                        de sua aldeia, Suki estava encarregada de treinar as guerreiras mais jovens. Quando o Avatar e
+                        os seus amigos chegaram na Ilha Kyoshi, Suki e algumas Guerreiras Kyoshi os capturaram, porém os
+                        libertaram quando descobriu que Aang era o Avatar.
+                    </p>
+                </div>
+            </li>
+            <li class="card fundo-6">
+                <h2 class="name">Zuko</h2>
+                <img class="img-game" src="./src/img/zuko.png" alt="Zuko">
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">
+                        Zuko é um hábil e poderoso dobrador de fogo, nascido como um príncipe na Família Real da Nação
+                        do Fogo. Inicialmente, o principal antagonista da Equipe Avatar, por três anos sua vida era
+                        concentrada em capturar o Avatar, dando fim ao seu banimento e recuperando sua honra como
+                        Príncipe Real da Nação do Fogo. Com o apoio de Iroh, seu tio por parte de pai, e após uma
+                        difícil luta interna, Zuko rejeita a Nação do Fogo e se junta à Equipe Avatar para se tornar
+                        amigo de Aang e seu professor de Dobra de Fogo. Zuko, com a ajuda de Katara, derrota sua
+                        poderosa irmã, a princesa Azula, assumindo seu lugar como Senhor do Fogo. Declara o fim da
+                        Guerra dos Cem Anos e o início de uma era de paz entre as quatro nações.
+                    </p>
+                </div>
+            </li>
+            <li class="card fundo-7">
+                <h2 class="name">Appa</h2>
+                <img class="img-game" src="./src/img/appa.png" alt="Appa">
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">
+                        Appa é o fiel Bisão Voador pertencente a Aang. Aang e Appa, juntamente com o Momo, tem um forte
+                        vínculo familiar entre si já que são os últimos de sua espécie. Ele é mais conhecido por sua
+                        habilidade de voar, através de Dobra de Ar, apesar do seu altíssimo peso. Isto faz dele o
+                        principal meio de transporte utilizado pela Equipe Avatar.
+                    </p>
+                </div>
+            </li>
+            <li class="card fundo-8">
+                <h2 class="name">Momo</h2>
+                <img class="img-game" src="./src/img/momo.png" alt="Momo">
+                <div class="description">
+                    <h3 class="title">Descrição</h3>
+                    <p class="text">
+                        Momo é um lêmure voador e um companheiro fiel do Aang e sua equipe. Ele é o único Lêmure Voador
+                        conhecido vivo nos anos finais da Guerra dos Cem Anos. Momo é uma criatura inteligente, mas
+                        incapazes de compreensão da fala humana. Ele também come qualquer fruta disponível. O
+                        comportamento de Momo é mais de gato do que lêmures da vida real. Suas asas parecem retrair na
+                        pele dos braços e ele parece ter quatro dedos e dois outros no interior da membrana da asa que
+                        pode ser visto quando ele tem suas asas estendidas. Seu pelo é branco, com algumas listras em
+                        preto e selecionar um rosto negro, que tem dois proporcionalmente olhos verdes bem grandes.
+                    </p>
+                </div>
+            </li>
+        </ul>
 
-            <button class="btn-arrow btn-next" id="btn-next">
-                <img src="./src/img/arrow.png" alt="próxima imagem">
-            </button>
-        </main>
+        <button class="btn-arrow btn-next" id="btn-next">
+            <img src="./src/img/arrow.png" alt="próxima imagem">
+        </button>
+    </main>
 
-        <script src="./src/js/index.js"></script>
-    </body>
-    
+    <script src="./src/js/index.js"></script>
+</body>
+
 </html>
