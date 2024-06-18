@@ -10,6 +10,7 @@ btnNext.addEventListener("click", function () {
     hideSelectedCard();
     selected++;
     showSelectedCard();
+    console.log(cards[selected].className.replace(/\D/g, ''));
 });
 
 
