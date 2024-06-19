@@ -9,17 +9,11 @@ Este projeto é uma página web interativa que apresenta os personagens principa
 
 ## Funcionalidades
 
-### Navegação por Botões
-<img src="./src/img/navigation.png" alt="Navegação" width="32" />
-**Navegação por Botões:** Botão "Next" para avançar para o próximo personagem. Botão "Back" para voltar ao personagem anterior.
+<img src="./src/img/navigation.png" alt="Navegação" width="32" /> **Navegação por Botões:** Botão "Next" para avançar para o próximo personagem. Botão "Back" para voltar ao personagem anterior.</br>
 
-### Animação Suave
-<img src="./src/img/animation.png" alt="Animação" width="32" />
-**Animação Suave:** Transições suaves ao mudar de uma carta para outra.
+<img src="./src/img/animation.png" alt="Animação" width="32" /> **Animação Suave:** Transições suaves ao mudar de uma carta para outra.</br>
 
-### Descrição Detalhada
-<img src="./src/img/description.png" alt="Descrição" width="32" />
-**Descrição Detalhada:** Cada carta contém uma descrição detalhada do personagem, incluindo a imagem e os elementos associados.
+<img src="./src/img/description.png" alt="Descrição" width="32" /> **Descrição Detalhada:** Cada carta contém uma descrição detalhada do personagem, incluindo a imagem e os elementos associados.</br>
 
 ## Como Usar
 
